@@ -1,5 +1,6 @@
-class Vahe {
-    constructor() {
+class Vahe extends LivingCreature{
+    constructor(x,y) {
+        super(x,y)
         this.grassCount = 20;
         this.grassEaterCount = 20;
         this.predatorCount = 15;

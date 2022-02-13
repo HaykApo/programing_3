@@ -1,9 +1,7 @@
-class Mushroom {
+class Mushroom extends LivingCreature{
     constructor(x, y) {
-        this.x = x;
-        this.y = y;
+        super(x, y)
         this.energy = 30;
-        this.directions = [];
     }
 
     update() {
